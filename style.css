@@ -1,0 +1,57 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: bisque;
+  text-align: center;
+}
+
+h1{
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+#count-el{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+button{
+  border:none;
+  color: white;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 25px;
+}
+
+#increment-btn{
+  background-color: rgb(214, 11, 11);
+}
+
+#save-btn{
+  background-color: green;
+  margin-bottom: 20px;
+}
+
+#save-str{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+img{
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  left: 0px;
+  top: 0;
+  z-index: -10;
+}
